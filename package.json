@@ -1,0 +1,26 @@
+{
+  "name": "playwright-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "report-generate": "npx allure generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcalvoCR/playwright-base.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gcalvoCR/playwright-base/issues"
+  },
+  "homepage": "https://github.com/gcalvoCR/playwright-base#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.30.0",
+    "allure-playwright": "^2.0.0",
+    "colors": "^1.4.0"
+  }
+}

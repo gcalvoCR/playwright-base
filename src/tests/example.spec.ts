@@ -16,3 +16,7 @@ test('get started link', async ({ page }) => {
   // Expects the URL to contain intro.
   await expect(page).toHaveURL(/.*intro/);
 });
+
+test('Test true is true', async ({ page }) => {
+  await expect(true).toBe(false);
+});

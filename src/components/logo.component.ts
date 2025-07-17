@@ -6,7 +6,7 @@ export interface LogoComponent {
 }
 
 const Logo: LogoComponent = {
-    component: '#shc-logo'
+    component: '#logo'
 };
 
 export default Logo;

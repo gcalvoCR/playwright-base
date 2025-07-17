@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test",
+    "test": "npx playwright test --headed",
     "report-generate": "npx allure generate"
   },
   "repository": {
@@ -19,8 +19,10 @@
   },
   "homepage": "https://github.com/gcalvoCR/playwright-base#readme",
   "devDependencies": {
-    "@playwright/test": "^1.30.0",
-    "allure-playwright": "^2.0.0",
-    "colors": "^1.4.0"
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.0.14",
+    "allure-playwright": "^3.3.2",
+    "colors": "^1.4.0",
+    "playwright": "^1.54.1"
   }
 }
